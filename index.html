@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap" rel="stylesheet">
+
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="container">
+                <div class="wrapper flexbet">
+                    <div class="large-text">
+                        <h2>Where in the world ?</h2>
+                    </div>
+                    <div class="control-mode">
+                        <span class="icon-small"><i class="fa-solid fa-moon"></i></span> <span class="current-mode">Light Mode</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="wrapper flexcol">
+                    <div class="header flexbet">
+                        <div class="form">
+                            <form action="#">
+                                <span class="icon-small"><i class="fa-solid fa-search"></i></span>
+                                <input type="text" placeholder="Search Countries">
+                            </form>
+                        </div>
+                        <ul class="filter-list">
+                            <li>
+                                <a href="#" class="flexbet">Search By Region <span class="icon-small"><i class="fa-solid fa-angle-down"></i></span></a>
+                                <ul class="regions">
+                                    <li><a href="#" data-region="Africa">Africa</a></li>
+                                    <li><a href="#" data-region="Americas">Americas</a></li>
+                                    <li><a href="#" data-region="Asia">Asia</a></li>
+                                    <li><a href="#" data-region="Europe">Europe</a></li>
+                                    <li><a href="#" data-region="Oceania">Oceania</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content">
+                        <div class="content-wrapper flexwrap">
+                            <!-- <div class="slide">
+                                <div class="image">
+                                    <img src="design/desktop-preview.jpg" alt="" srcset="">
+                                </div>
+                                <div class="info text-mini">
+                                    <ul>
+                                        <li>
+                                            <h3>German</h3>
+                                            <ul>
+                                                <li class="flex"><h4>Population: </h4><span class="light-text">81.752.230</span></li>
+                                                <li class="flex"><h4>Region: </h4><span class="light-text">Euorpe</span></li>
+                                                <li class="flex"><h4>Capital: </h4><span class="light-text">Berlin</span></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", indexEventListeners);
+    </script>
+
+</body>
+</html>
